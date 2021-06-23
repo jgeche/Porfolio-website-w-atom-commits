@@ -12,3 +12,9 @@ anime.timeline({loop: false})
     duration: 1500,
     delay: (el, i) => 70*i
   });
+
+//Tooltip Window that Generates Text to Element
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
