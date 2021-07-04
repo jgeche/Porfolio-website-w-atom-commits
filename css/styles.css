@@ -40,10 +40,6 @@ ul {
   background-color: #efeff5;
 }
 
-.nav-link {
-  color: #242424;
-}
-
 .contact-link, .other-link {
   width: 100px;
   text-align: center;
@@ -189,11 +185,11 @@ margin-top: 8px;
 
 /* Border Styles */
 
-.heading {
+.heading, .project-1, .project-2, .project-3, .project-4 {
   border-radius: 10px;
 }
 
-.contact-text, .hello, .skill-1 {
+.contact-text, .hello, .skill-1, .personal, .project-text {
   border-radius: 20px;
 }
 
@@ -539,6 +535,10 @@ nav {
 .skills-heading {
   width: 260px;
 }
+
+.button-1 {
+  width: 25%:
+}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -565,6 +565,14 @@ width: 322px;
 
 .project-heading {
   width: 345px;
+}
+
+.challenge-div {
+  padding-top: 12em;
+}
+
+.web-div {
+  padding-top: 12em;
 }
 }
 
@@ -644,6 +652,7 @@ width: 322px;
 
 .text-3 {
   font-size: 1.18em;
+  margin-bottom: 0.25rem;
 }
 
 .home {
@@ -684,5 +693,13 @@ width: 322px;
 
 .contact-1 {
    margin-top: 22px;
+}
+
+.web-div {
+  padding-top: 7em;
+}
+
+.text-3 {
+  margin-bottom: 1rem;
 }
 }
