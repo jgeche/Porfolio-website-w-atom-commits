@@ -12,8 +12,6 @@
 <!--CSS/Fonts-->
 <link rel="stylesheet" href="../css/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -22,13 +20,16 @@
 <!--Navigation-->
 <nav class="navbar navbar-expand-md navbar navbar-light fixed-top pt-3 pt-md-2">
 <div class="container-fluid px-sm-1 px-md-4 px-lg-5">
-<a class="navbar-brand" href="#top" data-mt-duration="300" data-toggle="tooltip" data-placement="bottom" title="Home"><img class="img-fluid home" alt="JG logo red, orange and yellow that takes you to the home page" src="../images/logo.svg"></a>
+<a class="navbar-brand" href="https://jgeche.github.io/portfolio-project/" data-mt-duration="300" data-toggle="tooltip" data-placement="bottom" title="Home"><img class="img-fluid home" alt="JG logo red, orange and yellow that takes you to the home page" src="../images/logo.svg"></a>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarNav">
 <div class="container justify-content-start">
 <div class="navbar-nav justify-content-end">
+<div class="nav-item mx-2 other-link">
+<a class="nav-link text-dark" href="#top" role="button">Top</a>
+</div>
 <div class="nav-item mx-2 other-link">
 <a class="nav-link text-dark" href="#about" role="button">Creation</a>
 </div>
@@ -43,18 +44,18 @@
 </div>
 </div>
 </nav>
-<!--What is it?-->
+<!--What is the project?-->
 <div class="container-fluid px-sm-1 px-md-4 px-lg-5 intro">
-<div class="row pt-sm-4 pb-sm-5">
-<div class="col-md pb-sm-5">
-<div class="jumbotron jumbotron-fluid mt-sm-3 pt-sm-3">
+<div class="row pt-lg-4 pb-lg-5">
+<div class="col-md pb-2 pb-lg-5">
+<div class="jumbotron jumbotron-fluid mt-sm-3 pt-lg-3">
 <h1 class="bg-light text-dark display-4 px-2 py-1 mb-sm-5">What is the project?</h1>
 <p class="hello fw-light text-dark px-2 py-1 fs-4 mt-sm-3">
 The first project that I accomplished within the Front-End Web Developer program through Treehouse was the Personal Page project. The project was the first time for me to put my HTML and CSS skills to the test and create a personal webpage for myself. The project required you to change an HTML profile Treehouse provided and make it your own. The project requirements included the correct file structure (index.html, css folder with linked css file, images folder with profile image), new background image for the webpage and two new HTML pages linked to the main page. </div>
 </div>
-<div class="col-xl">
-<div class="avatar pt-xl-5 avatar-1">
-<img src="../images/personal.jpg" class="img-fluid personal" alt="snapshot of personal page project" style="width: 100%;">
+<div class="col-xl pt-xl-5 mt-xl-4">
+<div class="pt-xl-5 mt-xl-5">
+<img src="../images/personal.png" class="img-fluid personal" alt="snapshot of personal page project">
 </div>
 </div>
 </div>
@@ -73,7 +74,7 @@ The first project that I accomplished within the Front-End Web Developer program
 </div>
 <div class="col-xl pt-sm-5">
 <div class="web-div">
-<img src="../images/challenge.png" class="img-fluid personal" alt="snapshot of personal page project" style="width: 100%;">
+<img src="../images/project-1.png" class="img-fluid personal" alt="snapshot of personal page project">
 </div>
 </div>
 </div>
@@ -82,7 +83,7 @@ The first project that I accomplished within the Front-End Web Developer program
 <div class="container-fluid px-sm-1 px-md-4 px-lg-5 skills" id="skills">
 <div class="row">
 <div class="col-md pt-sm-5">
-<div class="jumbotron jumbotron-fluid pt-sm-4">
+<div class="jumbotron jumbotron-fluid pt-lg-4">
 <h1 class="bg-light text-dark display-4 px-2 pt-1 pb-1 mb-sm-5">What were the challenges?</h1>
 <div class="text-dark px-2 about-me" style="background-color: #ededed;">
 <p class="fw-light fs-4 px-2 py-2">I submitted my project through Treehouse and it came back with a couple errors that I needed to correct. I forgot to add an images folder within the HTML document and was not linked correctly. They also reminded me that they would like to see a background image in the header of the page and not just a background color. Lastly, they informed me that there was a simple error through the CSS validator regarding missing a curly brace. I added an images folder and put the image inside it with the correct href process, changed the background color to a background image and fixed the CSS and ran it through the validator. The second time around I passed the project.
@@ -90,9 +91,9 @@ The first project that I accomplished within the Front-End Web Developer program
 </div>
 </div>
 </div>
-<div class="col-xl pt-sm-5 mt-sm-5">
+<div class="col-xl pt-2 pt-lg-5 mt-lg-5">
 <div class="challenge-div">
-<img src="../images/learn.png" class="img-fluid personal" alt="snapshot of personal page project" style="width: 100%;">
+<img src="../images/project-2.png" class="img-fluid personal" alt="snapshot of personal page project">
 </div>
 </div>
 </div>
@@ -110,11 +111,11 @@ The first project that I accomplished within the Front-End Web Developer program
 </div>
 </div>
 <div class="col-xl mt-sm-5">
-<div class="mt-sm-5 pt-sm-3">
-<a href="https://jgeche.github.io/Project-1-Personal-Page/" class="text-dark contact-button btn btn-danger justify-content-md-start col-10 mx-auto my-5 py-3 rounded-pill border border-warning border-1 button-1" type="button">View Project Page!</a>
+<div class="mt-lg-5 pt-lg-3">
+<a href="https://jgeche.github.io/Project-1-Personal-Page/" class="text-dark contact-button btn btn-danger justify-content-md-start col-10 mx-auto my-5 py-3 rounded-pill border border-warning border-1" type="button">View Project Page!</a>
 </div>
-<div class="pt-5">
-<a href="https://github.com/jgeche/Project-1-Personal-Page" class="text-dark contact-button btn btn-danger justify-content-md-start col-10 mx-auto py-3 rounded-pill border border-warning border-1 button-1" type="button">View Project on Github!</a>
+<div class="pt-3 pt-lg-5 pb-5 pb-xl-0">
+<a href="https://github.com/jgeche/Project-1-Personal-Page" class="text-dark contact-button btn btn-danger justify-content-md-start col-10 mx-auto py-3 rounded-pill border border-warning border-1" type="button">View Project on Github!</a>
 </div>
 </div>
 </div>
