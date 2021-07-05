@@ -31,13 +31,13 @@
 <a class="nav-link text-dark" href="#top" role="button">Top</a>
 </div>
 <div class="nav-item mx-2 other-link">
-<a class="nav-link text-dark" href="#about" role="button">Creation</a>
+<a class="nav-link text-dark" href="#create" role="button">Creation</a>
 </div>
 <div class="nav-item mx-2 other-link">
-<a class="nav-link text-dark" href="#skills" role="button">Challenges</a>
+<a class="nav-link text-dark" href="#challenge" role="button">Challenges</a>
 </div>
 <div class="nav-item mx-2 contact-link">
-<a class="nav-link text-dark" href="#contact" role="button">Lessons</a>
+<a class="nav-link text-dark" href="#lesson" role="button">Lessons</a>
 </div>
 </div>
 </div>
@@ -45,7 +45,7 @@
 </div>
 </nav>
 <!--What is the project?-->
-<div class="container-fluid px-sm-1 px-md-4 px-lg-5 intro">
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 intro" role="complementary" aria-label="project description">
 <div class="row pt-lg-4 pb-lg-5">
 <div class="col-md pb-2 pb-lg-5">
 <div class="jumbotron jumbotron-fluid mt-sm-3 pt-lg-3">
@@ -54,14 +54,14 @@
 The first project that I accomplished within the Front-End Web Developer program through Treehouse was the Personal Page project. The project was the first time for me to put my HTML and CSS skills to the test and create a personal webpage for myself. The project required you to change an HTML profile Treehouse provided and make it your own. The project requirements included the correct file structure (index.html, css folder with linked css file, images folder with profile image), new background image for the webpage and two new HTML pages linked to the main page. </div>
 </div>
 <div class="col-xl pt-xl-5 mt-xl-4">
-<div class="pt-xl-5 mt-xl-5">
-<img src="../images/personal.png" class="img-fluid personal" alt="snapshot of personal page project">
+<div class="pt-xl-5 mt-xl-5 d-flex justify-content-center">
+<img src="../images/personal.png" class="img-fluid personal" alt="Picture of my first personal webpage project which has a dark blue and lightblue background and an avatar of myself.">
 </div>
 </div>
 </div>
 </div>
 <!--How was it put together?-->
-<div class="container-fluid about px-sm-1 px-md-4 px-lg-5 pb-xl-5" id="about">
+<div class="container-fluid about px-sm-1 px-md-4 px-lg-5 pb-xl-5" id="create" role="complementary" aria-label="project creation">
 <div class="row pt-sm-4 pb-sm-5">
 <div class="col-md">
 <div class="jumbotron jumbotron-fluid mt-sm-3 pt-sm-3">
@@ -73,14 +73,14 @@ The first project that I accomplished within the Front-End Web Developer program
 </div>
 </div>
 <div class="col-xl pt-sm-5">
-<div class="web-div">
-<img src="../images/project-1.png" class="img-fluid personal" alt="snapshot of personal page project">
+<div class="web-div d-flex justify-content-center">
+<img src="../images/project-1.png" class="img-fluid personal" alt="web development decorative picture">
 </div>
 </div>
 </div>
 </div>
 <!--What were the challenges?-->
-<div class="container-fluid px-sm-1 px-md-4 px-lg-5 skills" id="skills">
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 skills" id="challenge" role="complementary" aria-label="project challenges">
 <div class="row">
 <div class="col-md pt-sm-5">
 <div class="jumbotron jumbotron-fluid pt-lg-4">
@@ -92,15 +92,15 @@ The first project that I accomplished within the Front-End Web Developer program
 </div>
 </div>
 <div class="col-xl pt-2 pt-lg-5 mt-lg-5">
-<div class="challenge-div">
-<img src="../images/project-2.png" class="img-fluid personal" alt="snapshot of personal page project">
+<div class="challenge-div d-flex justify-content-center">
+<img src="../images/project-2.png" class="img-fluid personal" alt="web development decorative picture">
 </div>
 </div>
 </div>
 </div>
 <!--What did I learn?-->
-<div class="container-fluid px-sm-1 px-md-4 px-lg-5 pt-5 pb-sm-5" style="background-color: #FFF;">
-<div class="row pt-lg-2 pt-xl-5 pb-xl-5" id="contact">
+<div class="container-fluid px-sm-1 px-md-4 px-lg-5 pt-5 pb-sm-5" style="background-color: #FFF;" role="complementary" aria-label="project lessons">
+<div class="row pt-lg-2 pt-xl-5 pb-xl-5" id="lesson">
 <div class="col-md pt-sm-4">
 <div class="jumbotron jumbotron-fluid">
 <h1 class="bg-light text-dark display-4 px-2 py-1 mb-md-5 mb-3">What did I learn?</h1>
@@ -112,10 +112,10 @@ The first project that I accomplished within the Front-End Web Developer program
 </div>
 <div class="col-xl mt-sm-5">
 <div class="mt-lg-5 pt-lg-3">
-<a href="https://jgeche.github.io/Project-1-Personal-Page/" class="text-dark contact-button btn btn-danger justify-content-md-start col-10 mx-auto my-5 py-3 rounded-pill border border-warning border-1" type="button">View Project Page!</a>
+<a href="https://jgeche.github.io/Project-1-Personal-Page/" class="text-dark contact-button btn btn-danger justify-content-md-start col-10 mx-auto my-5 py-3 rounded-pill border border-warning border-1" role="button">View Project Page!</a>
 </div>
 <div class="pt-3 pt-lg-5 pb-5 pb-xl-0">
-<a href="https://github.com/jgeche/Project-1-Personal-Page" class="text-dark contact-button btn btn-danger justify-content-md-start col-10 mx-auto py-3 rounded-pill border border-warning border-1" type="button">View Project on Github!</a>
+<a href="https://github.com/jgeche/Project-1-Personal-Page" class="text-dark contact-button btn btn-danger justify-content-md-start col-10 mx-auto py-3 rounded-pill border border-warning border-1" role="button">View Project on Github!</a>
 </div>
 </div>
 </div>
@@ -156,7 +156,6 @@ Designed and Built By Jamie Geche
 </div>
 </footer>
 <!--optional Javascript-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
 <script src="js/app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>

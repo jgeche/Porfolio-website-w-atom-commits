@@ -703,3 +703,13 @@ width: 322px;
   margin-bottom: 1rem;
 }
 }
+
+@media only screen and (min-width: 1700px) {
+
+.hello {
+  font-size: 2.5em;
+}
+
+.challenge-div {
+    padding-top: 5.5em;
+}
